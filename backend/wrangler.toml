@@ -1,0 +1,24 @@
+name = "backent"
+compatibility_date = "2024-08-25"
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZTBlMzgzZjEtMWJiZi00YzJkLTkwMWQtMTk3NjNkOGQ4MDJmIiwidGVuYW50X2lkIjoiYmEyMjIwMTc2OWQ0Mzg5MDZlZjYxNjY2MjUzNTNlMzViZTk3OWVjMGJlOWJhMjJhZTJjNTc0ZTkxYTkxOWI3OCIsImludGVybmFsX3NlY3JldCI6IjYxYWQ1ZmVkLTZlMTEtNGMyZC1iNTI3LWFkMGJhOWM1NTI3YSJ9.0egMSev_2mS6u_zAh1IejZYuyHYbLQDfWoaUa1x-Ex4"
+DIRECT_URL="postgresql://userDB_owner:jpvwNHOu1A6k@ep-dawn-dream-a5l9kjdh.us-east-2.aws.neon.tech/mediumDB?sslmode=require"
+JWT_SECRET="mysecret"
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
